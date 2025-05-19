@@ -12,5 +12,5 @@ do {
         i++;
         valor = valor + compra
     }
-} while  (compra > 0 || isNaN(compra))
+} while  (compra > 0 || isNaN(compra)) //Enquanto compra for maior que 0 ou não for um número irá mostrar a soma deles
 alert(`A soma das compras é ${valor}`);

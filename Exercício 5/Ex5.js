@@ -1,7 +1,7 @@
 let saldo = 1000; // Saldo inicial na conta
 
 while (saldo > 0) {
-  alert(`\nSaldo atual: R$${saldo}`);
+  alert(`Saldo atual: R$${saldo}`);
 
   let saque = parseFloat(prompt("Digite o valor que deseja sacar: R$"));
 
